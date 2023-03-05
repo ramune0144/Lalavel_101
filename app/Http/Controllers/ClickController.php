@@ -26,4 +26,6 @@ class ClickController extends Controller
         $count = Clicks::count();
         return redirect('/') ->with(['count'=>$count]);
     }
+
+
 }
